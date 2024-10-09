@@ -12,7 +12,7 @@ function get_job( WP_REST_Request $request ) {
             array(
                 'key' => 'job_number',
                 'value' => $job_number,
-                'compare' => '>'
+                'compare' => '='
             )
         ),
     );
